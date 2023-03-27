@@ -1,14 +1,10 @@
 /* Exercise #1 */
 
 let names=["Sofia","David","Juan"];
-console.log(names);
-names=names.sort();
-console.log(names);
 names.push("Sara");
 names.push("Augustin");
-console.log(names);
 names.shift();
-console.log(names);
+
 
 function addRenata(names) {
     index=names.indexOf("David");
@@ -19,23 +15,37 @@ function addRenata(names) {
     return newNames;
 
 }
+
 let newNames= addRenata(names);
-console.log(newNames);
 newNames.push("Elena");
+console.log(newNames);
 
-
-for (let index = 0; index < newNames.length; index++) {
+/* for (let index = 0; index < newNames.length; index++) {
     console.log(newNames[index]);
     
-}
+} */
 
 /* Exercise #2 */
 
-for (let i = 0; index < 5; index++) {
-    console.log(" ")
-    for (let j = i; index < 5 ; index++) {
+for (let i = 0; i <= 5; i++) {
+    
+    for (let j = 1; j <= i; j++) {
+       
         console.log("*");
         
     }
-    
+     console.log(" ")
 }
+/* Pendiente al revisar */
+
+/* Exercise #3 */
+/* – Repeatedly print the value of the variable xValue, decreasing it by 0.5 each time,
+as long as xValue remains positive. */
+/* - Print all the odd numbers between 1 - 100. */
+/* - Write a method with a while loop to print 1 through n in square brackets. 
+For example, if n = 6 print [1] [2] [3] [4] [5] [6] */
+/* - Write a method with a while loop that computes the sum of first n positive integers: 
+sum = 1 + 2 + 3 + … + n
+Examples:
+n = 5 sum = 15
+n = 19 sum = 190 */
