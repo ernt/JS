@@ -26,17 +26,18 @@ console.log(newNames);
 } */
 
 /* Exercise #2 */
-
-for (let i = 0; i <= 5; i++) {
-    
+let linea;
+for (let i = 1; i <= 5; i++) {
+    linea="";
     for (let j = 1; j <= i; j++) {
        
-        console.log("*");
+       linea+="*";
         
     }
-     console.log(" ")
+    console.log(linea);
+    
 }
-/* Pendiente al revisar */
+
 
 /* Exercise #3 */
 
